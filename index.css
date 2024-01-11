@@ -16,8 +16,7 @@ body {
 }
 
 .logo {
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 .logo h1 {
@@ -30,13 +29,13 @@ body {
   position: relative;
 }
 
-.logo .o {
+.logo #o {
   display: inline-block;
   position: relative;
   top: 0.5rem;
 }
 
-.logo .o:hover {
+.logo #o:hover {
   animation: bounce 0.5s ease infinite;
   transition: all 300ms ease;
 }
